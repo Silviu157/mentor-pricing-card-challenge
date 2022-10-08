@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+body {
+  padding: 30px;
+}
+h2, h4, p {
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+#card{
+  height: 400px;
+  width: 600px;
+  box-shadow: 3px -1px 9px 5px rgba(1,1,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+#top-section{
+  height: 40%;
+  width: 100%;
+  padding: 30px;
+}
+#top-section p {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+#bottom-section {
+  height: 60%;
+  width: 100%;
+}
+#bottom-left-section {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  vertical-align: top;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+}
+#bottom-right-section {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  vertical-align: top;
+  background-color: rgba(42,178,175,0.8);
+  padding: 30px;
+}
+#price{
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+#time {
+  display: inline-block;
+  color: hsl(204, 43%, 93%);
+  padding: 5px;
+  position: relative;
+  top: -3px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+#top-section h2{
+  color: hsl(179, 62%, 43%);
+}
+#top-section h4 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#top-section p {
+  color: hsl(218, 22%, 67%)
+}
+#bottom-left-section h4 {
+  color: white; 
+  margin-bottom: 15px;
+}
+#text {
+  color: white;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+#bottom-left-section button {
+  background-color: hsl(71, 73%, 54%);
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  width: 100%;
+  padding: 12px;
+  box-shadow: 3px -1px 9px 5px rgba(0,0,0,0.1);
+  margin-top: 30px;
+  font-size: 1.01rem;
+}
+#bottom-right-section h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+#bottom-right-section ul {
+  color: hsl(204, 43%, 93%);
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.75rem;
+}
+#bottom-right-section li {
+  margin-bottom: 4px;
+}
+#bottom-left-section button:hover {
+  cursor: pointer;
+  background-color: #65F065;
+}
