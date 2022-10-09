@@ -113,3 +113,9 @@ h2, h4, p {
   cursor: pointer;
   background-color: #65F065;
 }
+@media (max-width: 650px) {
+  #card, #top-section, #bottom-left-section, #bottom-right-section {
+    width: 100%;
+    height: auto;
+  }
+}
